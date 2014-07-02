@@ -18,7 +18,7 @@ def settings():
                                 consumer_secret=os.environ['CONSUMER_SECRET'])
     result = client.conn.fetch('GET', client.url('settings.mine'))
     print result.status_code
-    pprint.print(result.json())
+    pprint.pprint(result.json())
 
 
 if __name__ == '__main__':
