@@ -12,3 +12,5 @@ You should get::
 
  200
  {u'display_name': u'Andy McKay'}
+
+Although, hopefully your name will be different.
